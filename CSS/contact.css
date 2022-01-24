@@ -1,0 +1,116 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  background: rgba(25, 64, 90, 0.945);
+  border-radius: 10px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75vw;
+  max-width: 950px;
+  min-width: 400px;
+  padding: 80px;
+  box-shadow: 0 0 400px rgb(248, 202, 73);
+  border-radius: 10px;
+  height: 70vh;
+  min-height: 600px;
+}
+
+.contact-title {
+  display: inline;
+  width: 300px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.form-name {
+  display: flex;
+  padding: 10px;
+  padding-top: 50px;
+}
+
+.form-email {
+  display: flex;
+  padding: 10px;
+}
+
+form input {
+  width: 100%;
+  border: none;
+  height: 20px;
+  padding: 12px;
+}
+
+.form-name label {
+  padding-right: 10px;
+}
+
+.form-name input {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.form-email label {
+  padding-right: 12.6833px;
+}
+
+.form-email input {
+  border-radius: 10px;
+}
+
+.form-message {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-message label {
+  padding: 35px 0 15px 0;
+  font-size: x-large;
+  color: #fff;
+  text-align: center;
+}
+
+.form-message textarea {
+  padding: 10px;
+  resize: none;
+  border-radius: 10px;
+  height: 100px;
+  outline: none;
+  border: none;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 100px;
+}
+
+.submit-button button {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+@media screen and(max-width: 700px) {
+  .contact-title {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    height: 102vh;
+  }
+
+  .form {
+    height: 600px;
+  }
+
+  .form-message label {
+    font-size: 3vw;
+    text-indent: auto;
+  }
+}
