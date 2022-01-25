@@ -20,7 +20,7 @@ main {
 
 header {
   background: linear-gradient(rgb(76, 77, 150), rgba(0, 0, 0, 0.6)),
-    url(../images/image.jpg);
+    url(../Images/image.jpg);
   background-size: cover;
   height: 112vh;
   background-position: center center;
